@@ -1,0 +1,47 @@
+{
+    "name": "manish-manghwani/google-spreadsheet-acolyte",
+    "description": ":package_description",
+    "keywords": [
+        "manish-manghwani",
+        "google-spreadsheet-acolyte"
+    ],
+    "homepage": "https://github.com/manish-manghwani/google-spreadsheet-acolyte",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manish Manghwani",
+            "email": "manghwani.manish1996@gmail.com",
+            "homepage": "https://github.com/manish-manghwani",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "google/apiclient": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "M3\\GoogleSpreadSheet\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "M3\\GoogleSpreadSheet\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "M3\\GoogleSpreadSheet\\SpreadSheetServiceProvider"
+            ],
+            "aliases": {
+                "SpreadSheet": "M3\\GoogleSpreadSheet\\SpreadSheetFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
