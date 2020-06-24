@@ -1,6 +1,6 @@
 {
     "name": "manish-manghwani/google-spreadsheet-acolyte",
-    "description": ":package_description",
+    "description": "Package to insert data from google spreadheet into database",
     "keywords": [
         "manish-manghwani",
         "google-spreadsheet-acolyte"
@@ -22,11 +22,6 @@
     "autoload": {
         "psr-4": {
             "M3\\GoogleSpreadSheet\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "M3\\GoogleSpreadSheet\\Tests\\": "tests"
         }
     },
     "config": {
