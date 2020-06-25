@@ -1,4 +1,7 @@
 # google-spreadsheet-acolyte
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/manish-manghwani/google-spreadsheet-acolyte.svg?style=flat-square)](https://packagist.org/packages/manish-manghwani/google-spreadsheet-acolyte)
+[![Total Downloads](https://img.shields.io/packagist/dt/manish-manghwani/google-spreadsheet-acolyte.svg?style=flat-square)](https://packagist.org/packages/amitavroy/laravel-sort-and-filter)
+
 Laravel package to insert records from Google Spreadsheet
 
 This package allows you to hassle-free insert records directly from Google Spreadsheet into your desired table.
