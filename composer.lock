@@ -2554,7 +2554,7 @@
                 "symfony/error-handler": "^5.0",
                 "symfony/finder": "^5.0",
                 "symfony/http-foundation": "^5.0",
-                "symfony/http-kernel": "^5.0",
+                "symfony/http-kernel": "^5.1.5",
                 "symfony/mime": "^5.0",
                 "symfony/polyfill-php73": "^1.17",
                 "symfony/process": "^5.0",
@@ -5624,7 +5624,7 @@
             },
             "require-dev": {
                 "symfony/deprecation-contracts": "^2.1",
-                "symfony/http-kernel": "^4.4|^5.0",
+                "symfony/http-kernel": "^5.1.5",
                 "symfony/serializer": "^4.4|^5.0"
             },
             "type": "library",
@@ -6957,7 +6957,7 @@
                 "symfony/console": "^4.4|^5.0",
                 "symfony/dependency-injection": "^5.0",
                 "symfony/finder": "^4.4|^5.0",
-                "symfony/http-kernel": "^5.0",
+                "symfony/http-kernel": "^5.1.5",
                 "symfony/intl": "^4.4|^5.0",
                 "symfony/service-contracts": "^1.1.2|^2",
                 "symfony/yaml": "^4.4|^5.0"
