@@ -18,7 +18,7 @@ It saves time to download the sheet into csv format and then write sql script to
 6. Download Credentials.json
 7. Create one spreadsheet and shared it with your service account email id
 
-Add credentials.josn file to your root directory and add it in .gitignore list
+Add credentials.json file to your root directory and add it in .gitignore list
 
 ## Installation
 
